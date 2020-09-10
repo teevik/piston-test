@@ -14,14 +14,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb8341d0-1032-4120-b4ba-13b54706738c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/riderModule.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Piston-Test.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +88,15 @@
       <workItem from="1599675132025" duration="199000" />
       <workItem from="1599675396773" duration="1164000" />
       <workItem from="1599677109880" duration="1233000" />
-      <workItem from="1599678362985" duration="15162000" />
+      <workItem from="1599678362985" duration="18211000" />
     </task>
+    <task id="LOCAL−00001" summary="Working rendering">
+      <created>1599754544462</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1599754544462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,31 +118,37 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Working rendering" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working rendering" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599681528084">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1599681528084" />
-    <state width="1877" height="14" key="GridCell.Tab.0.bottom" timestamp="1599754450665">
+    <state width="1877" height="96" key="GridCell.Tab.0.bottom" timestamp="1599768237268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="14" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599754450665" />
-    <state width="1877" height="14" key="GridCell.Tab.0.center" timestamp="1599754450665">
+    <state width="1877" height="96" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1599768237268" />
+    <state width="1877" height="96" key="GridCell.Tab.0.center" timestamp="1599768237268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="14" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599754450665" />
-    <state width="1877" height="14" key="GridCell.Tab.0.left" timestamp="1599754450665">
+    <state width="1877" height="96" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1599768237268" />
+    <state width="1877" height="96" key="GridCell.Tab.0.left" timestamp="1599768237268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="14" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599754450665" />
-    <state width="1877" height="14" key="GridCell.Tab.0.right" timestamp="1599754450665">
+    <state width="1877" height="96" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1599768237268" />
+    <state width="1877" height="96" key="GridCell.Tab.0.right" timestamp="1599768237268">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="14" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599754450665" />
+    <state width="1877" height="96" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1599768237268" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1599678715375">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599678715375" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599754546944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599754546944" />
   </component>
 </project>

@@ -6,6 +6,7 @@ use piston_window::{MouseButton, Button, clear, TextureSettings, Texture, Textur
 use image::math::utils::clamp;
 use piston_window::math::abs_transform;
 use gfx::format::ChannelSource::X;
+use legion::World;
 
 fn main() {
     const CANVAS_SCALE: f32 = 1.0 / 8.0;
@@ -18,6 +19,8 @@ fn main() {
 
     let chunk_size = 16;
     let chunk_amounts = [7, 4];
+    
+    let world = World::default();
 
     let mut window: PistonWindow =
         WindowSettings::new("piston: paint", (width, height))
