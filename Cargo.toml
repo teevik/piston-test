@@ -1,0 +1,24 @@
+[package]
+name = "spinning-square"
+version = "0.1.0"
+authors = ["teevik <teemu.vikoren@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "spinning-square"
+
+[dependencies]
+piston_window = "0.112.0"
+find_folder = "0.3.0"
+piston-ai_behavior = "0.32.0"
+piston2d-sprite = "0.61.0"
+image = "0.23.0"
+piston2d-drag_controller = "0.30.0"
+piston2d-deform_grid = "0.7.0"
+gfx = "0.18.1"
+gfx_device_gl = "0.16.2"
+vecmath = "1.0.0"
+camera_controllers = "0.32.0"
+rand = "0.6.0"
+shader_version = "0.7.0"
+log = "0.4.11"
