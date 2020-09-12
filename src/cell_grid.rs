@@ -11,7 +11,7 @@ use itertools::Itertools;
 #[derive(Copy, Clone)]
 pub struct LiveCellApi<'a> {
     pub tile_position: Vector2<u32>,
-    pub chunks: [[&'a [[Cell; CHUNK_SIZE]; CHUNK_SIZE]; 3]; 3]
+    pub chunks: [[&'a CellChunk; 3]; 3]
 }
 
 impl<'a> LiveCellApi<'a> {
@@ -26,7 +26,7 @@ impl<'a> LiveCellApi<'a> {
 
         let chunk = self.chunks[(chunk_x + 1) as usize][(chunk_y + 1) as usize];
         
-        chunk[relative_target_tile_x as usize][relative_target_tile_y as usize]
+        chunk.get_cell([relative_target_tile_x, relative_target_tile_y])
     }
     
     pub fn is_empty(self, tile_offset: Vector2<i32>) -> bool {
@@ -172,7 +172,13 @@ impl CellChunk {
     
     pub fn update(&mut self, current_frame: u64, neighbor_chunks: [&mut CellChunk; 8]) {
         let is_even = current_frame % 2 == 0;
-        
+
+        let chunks: [[&CellChunk; 3]; 3] = [
+            [neighbor_chunks[0], neighbor_chunks[1], neighbor_chunks[2]],
+            [neighbor_chunks[3], self, neighbor_chunks[4]],
+            [neighbor_chunks[5], neighbor_chunks[6], neighbor_chunks[7]]
+        ];
+
         for x in if is_even { CHUNK_SIZE..0 } else { 0..CHUNK_SIZE } {
             for y in CHUNK_SIZE..0 {
                 let cell = &mut self.cells[x][y];
@@ -182,11 +188,6 @@ impl CellChunk {
                         continue;
                     }
                     
-                    let chunks: [[&[[Cell; CHUNK_SIZE]; CHUNK_SIZE]; 3]; 3] = [
-                        [&neighbor_chunks[0].cells, &neighbor_chunks[1].cells, &neighbor_chunks[2].cells],
-                        [&neighbor_chunks[3].cells, &self.cells, &neighbor_chunks[4].cells],
-                        [&neighbor_chunks[5].cells, &neighbor_chunks[6].cells, &neighbor_chunks[7].cells]
-                    ];
                     
                     let live_cell_instructions = live_cell.state.update(LiveCellApi {
                         tile_position: [x as u32, y as u32],
