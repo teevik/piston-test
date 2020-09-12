@@ -59,6 +59,7 @@
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\hermit-abi-0.1.15" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\image-0.23.9" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\interpolation-0.2.0" t="IncludeRecursive" />
+    <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\itertools-0.9.0" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\jpeg-decoder-0.1.20" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\khronos_api-3.1.0" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.cargo\registry\src\github.com-1ecc6299db9ec823\lazy_static-1.4.0" t="IncludeRecursive" />
@@ -180,7 +181,7 @@
     <e p="C:\Users\teemu\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\src\libtest" t="IncludeRecursive" />
     <e p="C:\Users\teemu\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\src\rust\src\libunwind" t="IncludeRecursive" />
     <e p="C:\Users\teemu\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\teemu\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.01" t="ExcludeRecursive" />
+    <e p="C:\Users\teemu\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_.19.00" t="ExcludeRecursive" />
     <e p="C:\Users\teemu\Documents\Games\Piston-Test" t="IncludeFlat" />
   </component>
 </project>
