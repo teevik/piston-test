@@ -314,13 +314,13 @@ impl CellGrid {
                 if let Some(chunk) = chunk {
                     chunk.update(current_frame, [
                         get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1]),
-                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, -1])
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [0, -1]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [1, -1]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, 0]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [1, 0]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [-1, 1]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [0, 1]),
+                        get_chunk_at_offset(&mut self.chunks, chunk_position, [1, 1])
                     ])
                 }
             }

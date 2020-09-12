@@ -7,7 +7,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="CargoProjects">
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
@@ -110,7 +116,7 @@
       <workItem from="1599677109880" duration="1233000" />
       <workItem from="1599678362985" duration="18211000" />
       <workItem from="1599853037869" duration="12221000" />
-      <workItem from="1599915495414" duration="15175000" />
+      <workItem from="1599915495414" duration="15916000" />
     </task>
     <task id="LOCAL−00001" summary="Working rendering">
       <created>1599754544462</created>
@@ -136,7 +142,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1599922883635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="...stuff">
+      <created>1599951059240</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1599951059240</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -161,7 +185,8 @@
     <MESSAGE value="Working rendering" />
     <MESSAGE value="Add cell_grid" />
     <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
+    <MESSAGE value="...stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="...stuff" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="164" key="#Inspection_severity" timestamp="1599845513552">
@@ -196,10 +221,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1599937184688" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599841025994">
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1599951324528">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599841025994" />
+    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1599951324528" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599844857095">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
